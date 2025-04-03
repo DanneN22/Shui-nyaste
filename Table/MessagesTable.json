@@ -1,0 +1,10 @@
+{
+  "TableName": "MessagesTable",
+  "AttributeDefinitions": [
+    { "AttributeName": "Shui-nyaste", "AttributeType": "S" }
+  ],
+  "KeySchema": [
+    { "AttributeName": "Shui-nyaste", "KeyType": "HASH" }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}
